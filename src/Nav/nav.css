@@ -1,0 +1,34 @@
+.NavBackground{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.NavBackground > div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 80%;
+    height: 90px;
+}
+.Link{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    width: 145px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Link-block{
+    width: 145px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #B59571;
+}

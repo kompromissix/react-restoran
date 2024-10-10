@@ -1,0 +1,47 @@
+.background2{
+    height: 681px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background2 > div{
+    width: 1076px;
+    height: 381px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.AboutTheRestaurant-oglav{
+    font-size: 20px;
+    width: 228px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AboutTheRestaurant-oglav hr{
+    width: 60px;
+    height: 3px;
+    background-color: #B59571;
+    border: none;
+}
+.AboutTheRestaurant-text{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.AboutTheRestaurant-text > div{
+    width: 856px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.AboutTheRestaurant-text h2{
+    font-size: 64px;
+    width: 196px;
+    height: 231px;
+}
+.AboutTheRestaurant-text p{
+    width: 526px;
+}

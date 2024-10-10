@@ -1,0 +1,13 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "Circe-Bold"; 
+  src: url("./Circe-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+body{
+  font-family: "Circe-Bold";
+}
