@@ -5,15 +5,20 @@ import burger from './Header-assets/gg_menu-left.png'
 import socicons from './Header-assets/soc-icons.png'
 import socicons2 from './Header-assets/soc-icons2.png'
 import socicons3 from './Header-assets/soc-icons3.png'
+import { useState } from 'react'
 
 function Header() {
+    const [state] = useState()
+    function Click(type) {
+        buu.style.display = "flex";
+    }
     return (
         <>
             <header>
                 <nav className='nav'>
                     <div>
                         <img src={logo} alt="" />
-                        <button type="button">
+                        <button onClick={() => Click()} type="button">
                             <img src={burger} alt="" />
                         </button>
                     </div>
