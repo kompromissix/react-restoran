@@ -1,0 +1,20 @@
+.NavBack{
+    height: 90px;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavBack > div{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center
+}
+.NavBack > div > div{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
