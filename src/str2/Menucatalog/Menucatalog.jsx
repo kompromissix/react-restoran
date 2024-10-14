@@ -1,5 +1,5 @@
 import './Menucatalog.css'
-import './date.js'
+import { ways } from './date'
 
 function WayToTeach(Havka){
     return(
@@ -18,12 +18,26 @@ function WayToTeach(Havka){
 function Menucatalog() {
     return(
         <>
-            <section>
+            <section className='section-food'>
                 <div>
                     <WayToTeach {...ways[0]}/>
+                    <WayToTeach {...ways[1]}/>
+                    <WayToTeach {...ways[2]}/>
+                    <WayToTeach {...ways[3]}/>
                 </div>
-                <div></div>
-                <div></div>
+                <div>
+                    <WayToTeach {...ways[4]}/>
+                    <WayToTeach {...ways[5]}/>
+                    <WayToTeach {...ways[6]}/>
+                    <WayToTeach {...ways[7]}/>
+                </div>
+                <div>
+                    <div>
+                        <WayToTeach {...ways[8]}/>
+                        <WayToTeach {...ways[9]}/>
+                        <WayToTeach {...ways[10]}/> 
+                    </div>
+                </div>
             </section>
         </>
     )
