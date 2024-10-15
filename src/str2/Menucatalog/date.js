@@ -27,7 +27,7 @@ export const ways = [
     {
         img: img3,
         name: 'Яичница-глазунья из трех яиц',
-        stimost: 'от 190₽',
+        stimost: '190₽',
     },
     {
         img: img4,

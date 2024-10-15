@@ -21,18 +21,15 @@
 .section-food{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 1360px;
 }
 .section-food > div{
-    display: flex;
-    justify-content: space-between;
     width: 1296px;
-}
-.section-food > div > div{
-    width: 966px;
-    display: flex;
-    justify-content: space-between;
+    height: 1260px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 1em;
 }
